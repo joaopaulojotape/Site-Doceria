@@ -1,0 +1,42 @@
+.gradient-box {
+	width: 500px;
+	height: 200px;
+	position: relative;
+	margin: 20px;
+}
+
+.gradient1 {
+	background-image: linear-gradient(purple, blue);
+}
+
+.gradient2 {
+	background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradient3 {
+	background-image: linear-gradient(to left, purple, blue);
+}
+
+.gradient4 {
+	background-image: linear-gradient(to top, red, yellow);
+}
+
+.gradient5 {
+	background-image: linear-gradient(to top right, purple, blue);
+}
+
+.gradient6 {
+	background-image: linear-gradient(#FFF, #CCC, #000);
+}
+
+.gradient7 {
+	background-image: radial-gradient(blue, darkblue);
+}
+
+.gradient8 {
+	background-image: radial-gradient(blue 10%, darkblue 30%);
+}
+
+.gradient9 {
+	background-image: radial-gradient(circle,blue, darkblue);
+}
